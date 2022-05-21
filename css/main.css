@@ -138,7 +138,7 @@ a {
 
 .column-1 {
     width: 30%;
-    margin-right: 80px;
+    margin-right: 100px;
 }
 
 .nft-heading {
@@ -161,7 +161,7 @@ a {
 .column-1 p {
     color: white;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
     text-align: justify;
     word-wrap: break-word;
 
@@ -172,6 +172,28 @@ a {
     width: 400px;
 }
 
+.news-section {
+    margin-top: 50px;
+}
+
+.news-heading {
+    color: #1ae7d8;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.head-news {
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+.head-news img {
+    width: 190px;
+}
+
 /* .heading-line img {
     text-align: center;
 
@@ -179,3 +201,60 @@ a {
 } */
 
 /* Below banner area end*/
+/* SLider area start */
+.MultiCarousel {
+    float: left;
+    overflow: hidden;
+    padding: 15px;
+    width: 100%;
+    position: relative;
+}
+
+.MultiCarousel .MultiCarousel-inner {
+    transition: 1s ease all;
+    float: left;
+}
+
+.MultiCarousel .MultiCarousel-inner .item {
+
+    float: left;
+}
+
+.MultiCarousel .MultiCarousel-inner .item>div {
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 80px;
+    background: #f1f1f1;
+    color: #666;
+}
+
+.MultiCarousel .leftLst, .MultiCarousel .rightLst {
+    position: absolute;
+    border-radius: 50%;
+    top: calc(50% - 20px);
+}
+
+.MultiCarousel .leftLst {
+    left: 0;
+}
+
+.MultiCarousel .rightLst {
+    right: 0;
+}
+
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over {
+    pointer-events: none;
+    background: #ccc;
+}
+
+.pad15 {
+    border: 1px solid transparent;
+    border-radius: 10px !important;
+    height: 200px !important;
+    width: 300px !important;
+}
+
+/* SLider area end */
