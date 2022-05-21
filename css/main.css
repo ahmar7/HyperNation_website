@@ -1,11 +1,12 @@
 body {
+    overflow-x: hidden !important;
     margin: 0;
     padding: 0;
 }
 
 .main-container {
 
-    background-image: url("../assets/home/home-backgrd.png");
+    /* background-image: url("../assets/home/home-backgrd.png"); */
     background-size: 100vw;
 
 }
@@ -19,6 +20,7 @@ a {
 
 }
 
+/* Header Css Start */
 /* .active::after {
     content: "";
     display: block;
@@ -31,7 +33,6 @@ a {
 } */
 
 .underline {
-    /* display: block; */
     position: absolute;
     width: 20px;
     margin-top: 23px;
@@ -43,8 +44,10 @@ a {
 
 .header {
     display: flex;
-
+    background-color: #254863;
+    /* margin-top: 10px; */
     margin-left: -100px;
+    padding: 10px;
     flex-direction: row;
     justify-content: center;
 }
@@ -64,8 +67,21 @@ a {
 .inner-nav ul li {
     display: inline;
     color: white;
+    font-size: 18px;
     margin-left: 15px;
+    font-family: 'Times New Roman', Times, serif;
     margin-right: 15px;
     list-style: none;
 
 }
+
+/* Header css end */
+/* Video  css start */
+#myVideo {
+
+    object-fit: cover;
+    width: 100vw;
+    height: 87vh;
+}
+
+/* Video  css end */
