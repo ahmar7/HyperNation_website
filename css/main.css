@@ -95,4 +95,42 @@ a {
 
 }
 
+.heading-line {
+    text-align: center;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    width: 230px;
+}
+
+.paragraph {
+    margin-top: 35px;
+    text-align: center;
+    margin-left: 150px;
+
+    margin-right: 150px;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.paragraph p {
+    text-align: justify;
+}
+
+.chain {
+    margin-top: 100px;
+}
+
+.chain img {
+    width: 100%;
+}
+
+/* .heading-line img {
+    text-align: center;
+
+    margin: auto;
+} */
+
 /* Below banner area end*/
