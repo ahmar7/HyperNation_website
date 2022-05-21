@@ -225,29 +225,34 @@ a {
     padding: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 50px;
-    margin-right: 80px;
-    background: #f1f1f1;
-    color: #666;
+    margin-left: 40px;
+    margin-right: 40px;
+    /* background: #f1f1f1; */
+    color: white;
 }
 
 .MultiCarousel .leftLst, .MultiCarousel .rightLst {
     position: absolute;
     border-radius: 50%;
-    top: calc(50% - 20px);
+    top: calc(50% - 50px);
 }
 
 .MultiCarousel .leftLst {
     left: 0;
+    background: none;
+    border: none;
 }
 
 .MultiCarousel .rightLst {
-    right: 0;
+    right: 0px;
+    background: none;
+    border: none;
 }
 
 .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over {
     pointer-events: none;
-    background: #ccc;
+    background: none;
+    border: none;
 }
 
 .pad15 {
@@ -255,6 +260,19 @@ a {
     border-radius: 10px !important;
     height: 200px !important;
     width: 300px !important;
+}
+
+.rightLst {
+    margin-left: 200px !important;
+}
+
+.news-tag {
+    text-align: center;
+}
+
+.pad15 img {
+    border-radius: 20px;
+    width: 100%;
 }
 
 /* SLider area end */
