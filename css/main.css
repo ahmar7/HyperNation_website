@@ -8,3 +8,25 @@ body {
     background-size: 100vw;
 
 }
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.header img {
+    width: 130px;
+}
+
+.inner-nav ul {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.inner-nav ul li {
+    display: inline;
+    list-style: none;
+
+}
