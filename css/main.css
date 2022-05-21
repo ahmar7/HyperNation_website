@@ -81,4 +81,18 @@ a {
     text-align: center;
 }
 
+.hyper-heading {
+    /* color: white; */
+    position: absolute;
+
+    /* margin-top: 436px; */
+    top: 60%;
+    z-index: 99999999;
+    text-align: center;
+    /* color: white; */
+    left: 25%;
+    font-size: 120px;
+
+}
+
 /* Below banner area end*/
