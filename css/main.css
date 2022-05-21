@@ -121,6 +121,7 @@ a {
 
 .chain {
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .chain img {
@@ -128,13 +129,16 @@ a {
 }
 
 .nft-detail {
+
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
 }
 
 .column-1 {
-    width: 40%;
+    width: 30%;
+    margin-right: 80px;
 }
 
 .nft-heading {
@@ -143,6 +147,29 @@ a {
     font-weight: bold;
 
     font-family: 'Poppins', sans-serif;
+}
+
+.head-line {
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+.head-line img {
+    width: 170px;
+}
+
+.column-1 p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    word-wrap: break-word;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.column-2 img {
+    width: 400px;
 }
 
 /* .heading-line img {
