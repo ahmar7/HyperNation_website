@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    background-image: url("../assets/home/home-backgrd.png");
+    background-size: 100vw;
+
+}
