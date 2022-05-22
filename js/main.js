@@ -25,7 +25,7 @@ $(document).ready(function () {
         infinite: true,
         lazyLoad: 'ondemand',
         slidesToShow: 3,
-        slidesToScroll: 3
+        slidesToScroll: 1
     });
 
 
