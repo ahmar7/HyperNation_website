@@ -16,30 +16,70 @@
 </head>
 
 <body>
-    <div class="main-container">
-        <div class="header">
-            <img src="./assets/home/logo.png"
-                 alt="">
-            <nav class="inner-nav">
-                <ul>
+<div class="main-container">
+    <div class="header">
+        <img class="header-img"
+             src="./assets/home/logo.png"
+             alt="">
+        <nav class="inner-nav">
+            <ul>
+                <a href="home.html">
+                    <li>Home</li>
+                </a>
+                <a href="hypernation.html">
+                    <li class="active">
+                        <span>HyperNation</span>
+                        <span class="underline"></span>
+                    </li>
+                </a>
+                <a href="mrh.html">
+                    <li>Mr. H</li>
+                </a>
+                <a href="">
+                    <li>Empower</li>
+                </a>
+                <a href="">
+                    <li>News & Media</li>
+                </a>
+            </ul>
+        </nav>
+        <div class="mbl-main">
+            <div class="mobile-nav">
+                <div><img src="/assets/home/logo.png"
+                         alt=""></div>
+                <div>
+                    <div class="nav-icon"
+                         id="open-bar"
+                         onclick="mblnav()"> <i class="fa-solid  fa-bars"></i></div>
+                    <div onclick="closebar()"
+                         class="hide-x cross-bar"
+                         id="close-bar"><i class="fa-solid fa-x"></i></div>
+                </div>
+            </div>
+            <nav class="inner-mbl-nav">
+                <ul id="nav-mbl">
                     <a href="home.html">
-                        <li> Home
-                        </li>
+                        <li>Home</li>
+
                     </a>
                     <a href="hypernation.html">
-                        <li class="active">
-                            <span> HyperNation</span>
-                            <span class="underline"></span>
-                        </li>
+                        <li class="active">HyperNation</li>
                     </a>
                     <a href="mrh.html">
-                        <li>Mr. H</li>
+                        <li >
+                            <span> Mr. H</span>
+                        </li>
                     </a>
-                    <li>Empower</li>
-                    <li>News & Media</li>
+                    <a href="">
+                        <li>Empower</li>
+                    </a>
+                    <a href="">
+                        <li>News & Media</li>
+                    </a>
                 </ul>
             </nav>
         </div>
+    </div>
 
 
     </div>
