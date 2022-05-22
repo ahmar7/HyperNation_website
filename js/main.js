@@ -16,4 +16,24 @@ let closebar = () => {
     navbar.classList.toggle("show-nav")
     // navbar.classList.add("hide-nav")
 }
+
+$(document).ready(function () {
+
+
+
+    $('.items').slick({
+        infinite: true,
+        lazyLoad: 'ondemand',
+        slidesToShow: 3,
+        slidesToScroll: 3
+    });
+
+
+
+
+
+
+});
 document.getElementById('myVideo').play()
+
+

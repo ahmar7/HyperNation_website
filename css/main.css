@@ -38,11 +38,14 @@ a:hover {
     margin-left: -100px;
     padding: 10px;
     flex-direction: row;
+    padding-bottom: 15px !important;
     justify-content: center;
 }
 
 .header img {
     width: 130px;
+
+    margin-top: -5px;
     margin-right: 50px;
 }
 
@@ -54,7 +57,7 @@ a:hover {
 
 
 .inner-nav ul {
-    margin-top: 25px;
+    margin-top: 18px;
 
 }
 
@@ -399,7 +402,12 @@ a:hover {
     margin-left: 10px !important;
 }
 
+.social-bg {
+    cursor: pointer;
+}
+
 .social-link ul {
+    display: none;
     position: absolute;
     left: 39%;
     text-align: center;
