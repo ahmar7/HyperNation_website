@@ -386,6 +386,7 @@ a:hover {
 .pad15 img {
     border-radius: 20px;
     width: 100%;
+    min-height: 200px;
 }
 
 /* SLider area end */
