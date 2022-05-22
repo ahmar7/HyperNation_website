@@ -99,7 +99,9 @@ a:hover {
     top: 0;
     left: -100%;
     width: 100%;
+    z-index: 9999999;
     padding-top: 200px;
+    padding-left: 0 !important;
     height: 100%;
     background-color: rgb(22, 21, 21);
 }
@@ -141,6 +143,11 @@ a:hover {
     font-size: 28px;
 }
 
+.cross-bar {
+    position: relative;
+    z-index: 99999999;
+}
+
 /* Header css end */
 /* Video  css start */
 #myVideo {
@@ -155,7 +162,12 @@ a:hover {
     margin-top: -5px;
     padding: 0;
     background-image: url("../assets/home/home-backgrd.png");
-    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-size: auto;
+    /* background-position: 100%; */
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+
 
 }
 
@@ -440,6 +452,11 @@ a:hover {
         margin-top: 16px;
 
     }
+
+    .column-1 {
+        width: 30%;
+        margin-right: 120px;
+    }
 }
 
 @media (max-width:860px) {
@@ -452,6 +469,30 @@ a:hover {
         margin-right: 10px;
         list-style: none;
 
+    }
+
+    .paragraph {
+        margin-top: 35px;
+        text-align: center;
+        margin-left: 100px;
+
+        margin-right: 100px;
+        color: white;
+        font-size: 18px;
+        font-weight: 300;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .column-1 {
+        width: 40%;
+        margin-right: 100px;
+    }
+
+    .column-2 img {
+        display: flex;
+        justify-content: right;
+        width: 300px;
+        text-align: right !important;
     }
 }
 
@@ -466,8 +507,10 @@ a:hover {
     }
 
     .header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
 
-        justify-content: space-between;
     }
 
     .header img {
@@ -477,6 +520,103 @@ a:hover {
     .mobile-nav {
         display: flex;
         justify-content: space-between;
+
+    }
+
+    .paragraph {
+        margin-top: 35px;
+        text-align: center;
+        margin-left: 50px;
+
+        margin-right: 50px;
+        color: white;
+        font-size: 18px;
+        font-weight: 300;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .nft-detail {
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .column-1 {
+        width: auto;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .column-2 img {
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        margin-top: 20px !important;
+        margin: auto;
+        text-align: right !important;
+    }
+
+    .head-line {
+        text-align: center;
+
+    }
+
+    .nft-heading {
+        text-align: center;
+    }
+}
+
+@media (max-width:680px) {
+    .chain {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .column-2 img {
+        display: flex;
+        justify-content: center;
+        width: 250px;
+        margin-top: 20px !important;
+        margin: auto;
+        text-align: right !important;
+    }
+}
+
+@media (max-width:420px) {
+    .paragraph {
+        margin-top: 35px;
+        text-align: center;
+        margin-left: 25px;
+
+        margin-right: 25px;
+        color: white;
+        font-size: 15px;
+        font-weight: 300;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .column-1 {
+        width: auto;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+
+    .column-2 img {
+        display: flex;
+        justify-content: center;
+        width: 200px;
+        margin-top: 20px !important;
+        margin: auto;
+        text-align: right !important;
+    }
+}
+
+@media (max-width:360px) {
+    .column-2 img {
+
+        width: 160px;
 
     }
 }
