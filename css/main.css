@@ -46,6 +46,11 @@ a:hover {
     margin-right: 50px;
 }
 
+.mbl-nav img {
+    width: 130px;
+    margin-right: 50px;
+}
+
 
 
 .inner-nav ul {
@@ -69,15 +74,22 @@ a:hover {
 }
 
 .mobile-nav i {
-    color: white;
+    color: white !important;
     margin-right: 50px;
     font-size: 25px;
     margin-top: 12px;
 }
 
 .nav-icon {
+
     cursor: pointer;
 }
+
+.nav-icon i {
+    position: relative;
+    z-index: 9999999;
+}
+
 
 .inner-mbl-nav ul {
     transition: 0.3s all ease;
@@ -90,6 +102,36 @@ a:hover {
     padding-top: 200px;
     height: 100%;
     background-color: rgb(22, 21, 21);
+}
+
+.show-nav {
+    left: 0% !important;
+    transition: all 0.3s ease;
+}
+
+.hide-nav {
+    left: -100% !important;
+    transition: all 0.3s ease;
+}
+
+.hide {
+    display: none !important;
+}
+
+.hide-x {
+    display: none;
+}
+
+.show-x {
+    display: block;
+
+}
+
+.open i {}
+
+.show {
+    display: block !important;
+
 }
 
 .inner-mbl-nav ul li {
@@ -415,6 +457,10 @@ a:hover {
 
 
 @media (max-width:768px) {
+    .header-img {
+        display: none;
+    }
+
     .inner-nav {
         display: none;
     }
@@ -429,7 +475,9 @@ a:hover {
     }
 
     .mobile-nav {
-        display: block;
+        display: flex;
+        justify-content: space-between;
+
     }
 }
 

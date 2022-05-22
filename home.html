@@ -32,7 +32,7 @@
 <body>
     <div class="main-container">
         <div class="header">
-            <img src="./assets/home/logo.png"
+            <img class="header-img" src="./assets/home/logo.png"
                  alt="">
             <nav class="inner-nav">
                 <ul>
@@ -48,32 +48,49 @@
                     <a href="mrh.html">
                         <li>Mr. H</li>
                     </a>
-                   <a href=""><li>Empower</li></a>
-                   <a href=""> <li>News & Media</li></a>
+                    <a href="">
+                        <li>Empower</li>
+                    </a>
+                    <a href="">
+                        <li>News & Media</li>
+                    </a>
                 </ul>
             </nav>
             <div class="mobile-nav">
-              <div class="nav-icon" onclick="mblnav()">  <i class="fa-solid fa-bars"></i></div>
-                <nav id="nav-mbl" class="inner-mbl-nav">
-                    <ul>
-                        <a href="home.html">
-                            <li class="active">
-                                <span> Home</span> 
-                            </li>
-                        </a>
-                        <a href="hypernation.html">
-                            <li>HyperNation</li>
-                        </a>
-                        <a href="mrh.html">
-                            <li>Mr. H</li>
-                        </a>
-                      <a href=""> <li>Empower</li></a>
-                      <a href="">  <li>News & Media</li></a>
-                    </ul>
-                </nav>
+                <div><img src="/assets/home/logo.png" alt=""></div>
+                <div>
+                    <div class="nav-icon"
+                         id="open-bar"
+                         onclick="mblnav()"> <i class="fa-solid  fa-bars"></i></div>
+                    <div onclick="closebar()"
+                         class="hide-x"
+                         id="close-bar"><i class="fa-solid fa-x"></i></div>
+                </div>
             </div>
+            <nav class="inner-mbl-nav">
+                <ul id="nav-mbl">
+                    <a href="home.html">
+                        <li class="active">
+                            <span> Home</span>
+                        </li>
+                    </a>
+                    <a href="hypernation.html">
+                        <li>HyperNation</li>
+                    </a>
+                    <a href="mrh.html">
+                        <li>Mr. H</li>
+                    </a>
+                    <a href="">
+                        <li>Empower</li>
+                    </a>
+                    <a href="">
+                        <li>News & Media</li>
+                    </a>
+                </ul>
+            </nav>
         </div>
-        <!-- <video loop
+    </div>
+    <!-- <video loop
                controls
                id="myVideo">
             <source src="./assets/video/HypernationBanner1.mp4"
@@ -269,4 +286,5 @@
 </body>
 <script src="./js/slider.js"></script>
 <script src="./js/main.js"></script>
+
 </html>
