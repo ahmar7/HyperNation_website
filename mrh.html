@@ -13,37 +13,153 @@
           type="image/x-icon">
     <link rel="stylesheet"
           href="./css/main.css">
+          <link rel="stylesheet" href="./css/mrh.css">
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Poppins:wght@100;200;300;400&display=swap"
+          rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"
+          rel="stylesheet"
+          id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/6fd519cc43.js"
+            crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="main-container">
-        <div class="header">
-            <img src="./assets/home/logo.png"
-                 alt="">
-            <nav class="inner-nav">
-                <ul>
+<div class="main-container">
+    <div class="header">
+        <img class="header-img"
+             src="./assets/home/logo.png"
+             alt="">
+        <nav class="inner-nav">
+            <ul>
+                <a href="home.html">
+                <li>Home</li>
+                </a>
+                <a href="hypernation.html">
+                    <li>HyperNation</li>
+                </a>
+                <a href="mrh.html">
+                    <li class="active">
+                        <span> Mr. H</span>
+                        <span class="underline"></span>
+                    </li>
+                </a>
+                <a href="">
+                    <li>Empower</li>
+                </a>
+                <a href="">
+                    <li>News & Media</li>
+                </a>
+            </ul>
+        </nav>
+        <div class="mbl-main">
+            <div class="mobile-nav">
+                <div><img src="/assets/home/logo.png"
+                         alt=""></div>
+                <div>
+                    <div class="nav-icon"
+                         id="open-bar"
+                         onclick="mblnav()"> <i class="fa-solid  fa-bars"></i></div>
+                    <div onclick="closebar()"
+                         class="hide-x cross-bar"
+                         id="close-bar"><i class="fa-solid fa-x"></i></div>
+                </div>
+            </div>
+            <nav class="inner-mbl-nav">
+                <ul id="nav-mbl">
                     <a href="home.html">
-                        <li>
-                           Home
-                        </li>
+                        <li>Home</li>
+                        
                     </a>
                     <a href="hypernation.html">
-                    <li>HyperNation</li>
+                        <li>HyperNation</li>
                     </a>
                     <a href="mrh.html">
-                        <li class="active">
-                    <span> Mr. H</span>
-                    <span class="underline"></span>
-                        </li>
+                    <li class="active">
+                        <span> Mr. H</span>
+                    </li>
                     </a>
-                    <li>Empower</li>
-                    <li>News & Media</li>
+                    <a href="">
+                        <li>Empower</li>
+                    </a>
+                    <a href="">
+                        <li>News & Media</li>
+                    </a>
                 </ul>
             </nav>
         </div>
-
-
     </div>
-</body>
+    <div class="below-banner">
+        <div class="banner"><img src="./assets/mrh/mrh.png"
+             alt=""></div>
+                <center>
+                    <div class="heading-line-mrh">
+                        <img  
+                             src="./assets/home/heading line.png"
+                             alt="">
+                    </div>
+                </center>
+                <div class="paragraph">
+                    <p>Mr. H is the official Ambassador of HyperNation. As a champion for human rights and equality, Mr. H firmly believes that
+                    advocating for freedom requires a revolution, and a firm change in our social construct. He believes that HyperNation as
+                    a decentralized nation will be able to accomplish the impossible - a world of true justice and equality.</p>
+                    <p>You can say that I am an evangelist in the new world order, or maybe even a guide that helps you to illustrate the
+                    truth, but it may be more appropriate to say that I am the person you used to be. Just like many of you, I used to obey
+                    the oppressive rules of society in order to survive, regardless of how unfair they were. In the past, I did not believe
+                    that common folks like you and I had the power to change the world, nor did I believe in empty words like equality and
+                    fairness. I thought I was destined to live a meaningless life - but not anymore!</p>
+ 
+                </div>
 
+<center>
+    <div class="social-icons">
+        <div class="social-link">
+            <ul>
+                <a href="">
+                    <li><img src="./assets/icons/Asset 8.png"
+                             alt=""></li>
+                </a>
+                <a href="">
+                    <li><img src="./assets/icons/Asset 5.png"
+                             alt=""></li>
+                </a>
+                <a href="">
+                    <li><img src="./assets/icons/Asset 7.png"
+                             alt=""></li>
+                </a>
+                <a href="">
+                    <li><img src="./assets/icons/Asset 9.png"
+                             alt=""></li>
+                </a>
+                <a href="">
+                    <li><img src="./assets/icons/Asset 6.png"
+                             alt=""></li>
+                </a>
+
+            </ul>
+        </div>
+        <img class="social-bg"
+             src="./assets/icons/Asset 10.png"
+             alt="">
+    </div>
+</center>
+
+                <footer class="footer">
+                    <p>Copyright @Hypernation 2022-All Right Reserved</p>
+                </footer>
+    </div>
+</div>
+</body>
+<script src="./js/main.js"></script>
 </html>
+
+
+
+
+
