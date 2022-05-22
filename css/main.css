@@ -733,12 +733,16 @@ a:hover {
         position: absolute;
         left: 15%;
         text-align: center;
-        margin-top: 15px;
+        margin-top: 9px;
 
     }
 
     .social-icons img {
         width: 234px;
+    }
+
+    .social-link ul li img {
+        width: 17px;
     }
 }
 
@@ -759,7 +763,7 @@ a:hover {
         position: absolute;
         left: 10%;
         text-align: center;
-        margin-top: 15px;
+        margin-top: 9px;
 
     }
 }
@@ -768,6 +772,16 @@ a:hover {
     .column-2 img {
 
         width: 160px;
+
+    }
+}
+
+@media (max-width:325px) {
+    .social-link ul {
+        position: absolute;
+        left: 7%;
+        text-align: center;
+        margin-top: 9px;
 
     }
 }
