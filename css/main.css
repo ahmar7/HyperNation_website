@@ -138,7 +138,7 @@ a {
 
 .column-1 {
     width: 30%;
-    margin-right: 100px;
+    margin-right: 200px;
 }
 
 .nft-heading {
@@ -168,8 +168,13 @@ a {
     font-family: 'Poppins', sans-serif;
 }
 
+
+
 .column-2 img {
+    display: flex;
+    justify-content: right;
     width: 400px;
+    text-align: right !important;
 }
 
 .news-section {
@@ -288,6 +293,17 @@ a {
 
 .social-link ul li {
     display: inline;
+    margin-right: 10px !important;
+
+    margin-left: 10px !important;
+}
+
+.social-link ul {
+    position: absolute;
+    left: 39%;
+    text-align: center;
+    margin-top: 15px;
+
 }
 
 .social-link ul li img {
@@ -295,3 +311,16 @@ a {
 }
 
 /* Social icons css end */
+/* Footer section start */
+.footer {
+    background-color: black;
+    text-align: center;
+    height: 50px;
+}
+
+.footer p {
+    color: white;
+    padding-top: 15px;
+}
+
+/* Footer section end */
