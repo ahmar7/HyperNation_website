@@ -159,14 +159,22 @@ a:hover {
 /* Video  css end */
 /* Below banner area start*/
 .below-banner {
-    margin-top: -5px;
+    /* margin-top: -5px;
     padding: 0;
     background-image: url("../assets/home/home-backgrd.png");
     background-repeat: no-repeat;
     background-size: auto;
     /* background-position: 100%; */
     /* background-size: contain; */
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;  */
+    margin-top: -8px;
+
+
+    background: url("../assets/home/home-backgrd.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 
 }
@@ -566,6 +574,10 @@ a:hover {
     .nft-heading {
         text-align: center;
     }
+
+    .cloud-icon {
+        display: none;
+    }
 }
 
 @media (max-width:680px) {
@@ -610,6 +622,21 @@ a:hover {
         margin-top: 20px !important;
         margin: auto;
         text-align: right !important;
+    }
+
+
+}
+
+@media (max-width:370px) {
+    .MultiCarousel .MultiCarousel-inner .item>div {
+        text-align: center;
+        padding: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 0px;
+        /* background: #f1f1f1; */
+        color: white;
     }
 }
 
