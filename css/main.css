@@ -454,7 +454,8 @@ a:hover {
 
 .footer p {
     color: white;
-    padding-top: 15px;
+    padding-top: 15px !important;
+    margin: 0 !important;
 }
 
 /* Footer section end */
