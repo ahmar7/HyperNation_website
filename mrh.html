@@ -9,7 +9,7 @@
           content="width=device-width, initial-scale=1.0">
     <title>HyperNation</title>
     <link rel="shortcut icon"
-          href="./assets/home/logo.png"
+          href="./assets/hypernation/hypernation bottom logo.png"
           type="image/x-icon">
     <link rel="stylesheet"
           href="./css/main.css">
@@ -22,21 +22,19 @@
           crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Poppins:wght@100;200;300;400&display=swap"
           rel="stylesheet">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"
-          rel="stylesheet"
-          id="bootstrap-css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
     <script src="https://kit.fontawesome.com/6fd519cc43.js"
             crossorigin="anonymous"></script>
     <link rel="stylesheet"
-          type="text/css"
-          href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+          href="css/owl.carousel.min.css">
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet"
-          type="text/css"
-          href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <script type="text/javascript"
-            src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+          href="css/bootstrap.min.css">
+
+    <!-- Style -->
+    <link rel="stylesheet"
+          href="css/style.css">
 
 </head>
 
@@ -48,22 +46,22 @@
                  alt="">
             <nav class="inner-nav">
                 <ul>
-                    <a onclick="closebar()" href="index.html">
+                    <a href="index.html">
                         <li>Home</li>
                     </a>
-                    <a onclick="closebar()" href="hypernation.html">
+                    <a href="hypernation.html">
                         <li>HyperNation</li>
                     </a>
-                    <a onclick="closebar()" href="mrh.html">
+                    <a href="mrh.html">
                         <li class="active">
                             <span> Mr. H</span>
                             <span class="underline"></span>
                         </li>
                     </a>
-                <a onclick="closebar()" href="./index.html#nft">
+                    <a href="./index.html#nft">
                         <li>Empower</li>
                     </a>
-                    <a onclick="closebar()" href="./index.html#news">
+                    <a href="./index.html#news">
                         <li>News & Media</li>
                     </a>
                 </ul>
@@ -83,22 +81,27 @@
                 </div>
                 <nav class="inner-mbl-nav">
                     <ul id="nav-mbl">
-                        <a href="index.html">
+                        <a onclick="closebar()"
+                           href="index.html">
                             <li>Home</li>
 
                         </a>
-                        <a href="hypernation.html">
+                        <a onclick="closebar()"
+                           href="hypernation.html">
                             <li>HyperNation</li>
                         </a>
-                        <a href="mrh.html">
+                        <a onclick="closebar()"
+                           href="mrh.html">
                             <li class="active">
                                 <span> Mr. H</span>
                             </li>
                         </a>
-                        <a href="./index.html#nft">
+                        <a onclick="closebar()"
+                           href="./index.html#nft">
                             <li>Empower</li>
                         </a>
-                        <a href="./index.html#news">
+                        <a onclick="closebar()"
+                           href="./index.html#news">
                             <li>News & Media</li>
                         </a>
                     </ul>
@@ -141,102 +144,66 @@
             </div>
             <!-- Multi video slider starts -->
 
-            <div class="container">
-                <div class="row">
-                    <div class="MultiCarousel"
-                         data-items="1,2,3,3"
-                         data-slide="1"
-                         id="MultiCarousel"
-                         data-interval="1000">
-                        <div class="MultiCarousel-inner">
+            <div class="content">
 
-                            <div class="item">
-                                <div class="pad15">
-                                    <iframe src="https://www.youtube.com/embed/46KUcljUUPw"
-                                            title="YouTube video player"
-                                            frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                            allowfullscreen></iframe>
-                                </div>
-                                
+
+
+
+                <div class="site-section bg-left-half mb-5">
+                    <div class="container owl-2-style">
+
+
+
+                        <div class="owl-carousel owl-2">
+                            <div class="media-29101">
+                                <iframe src="https://www.youtube.com/embed/46KUcljUUPw"
+                                        title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+
                             </div>
-
-
-                            <div class="item">
-                                <div class="pad15">
-                                    <iframe src="https://www.youtube.com/embed/8t5ZSS_XziA"
-                                            title="YouTube video player"
-                                            frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                            allowfullscreen></iframe>
-                                </div>
-                                
+                            <div class="media-29101">
+                                <iframe src="https://www.youtube.com/embed/8t5ZSS_XziA"
+                                        title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
                             </div>
-
-
-                            <div class="item">
-                                <div class="pad15">
-                                    <iframe src="https://www.youtube.com/embed/pwgvIyuMZ2A"
-                                            title="YouTube video player"
-                                            frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                            allowfullscreen></iframe>
-                                </div>
-                                
+                            <div class="media-29101">
+                                <iframe src="https://www.youtube.com/embed/pwgvIyuMZ2A"
+                                        title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
                             </div>
-
-
-                            <div class="item">
-                                <div class="pad15">
-                                    <iframe src="https://www.youtube.com/embed/BbApLpMLOIk"
-                                            title="YouTube video player"
-                                            frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                            allowfullscreen></iframe>
-                                </div>
-                                
+                            <div class="media-29101">
+                                <iframe src="https://www.youtube.com/embed/BbApLpMLOIk"
+                                        title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
                             </div>
-
-
-                            <div class="item">
-                                <div class="pad15">
-                                    <iframe src="https://www.youtube.com/embed/019MqxxiolI"
-                                            title="YouTube video player"
-                                            frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                            allowfullscreen></iframe>
-                                </div>
-                                
+                            <div class="media-29101">
+                                <iframe src="https://www.youtube.com/embed/019MqxxiolI"
+                                        title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
                             </div>
-
-
-                            <div class="item">
-                                <div class="pad15">
-                                    <iframe src="https://www.youtube.com/embed/D9NZbKGBA_w"
-                                            title="YouTube video player"
-                                            frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                            allowfullscreen></iframe>
-                                </div>
-                                
+                            <div class="media-29101">
+                                <iframe src="https://www.youtube.com/embed/D9NZbKGBA_w"
+                                        title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
                             </div>
-
-
-
                         </div>
-                        <button class=" leftLst">
-                            <img src="./assets/home/left.png"
-                                 alt=""
-                                 width="40px"> </button>
-                        <button class="rightLst"><img src="./assets/home/right.png"
-                                 width="40px"
-                                 alt=""></button>
+
                     </div>
                 </div>
 
             </div>
-
-
             <!-- Multi video slider end -->
             <center>
                 <div class="social-icons">
@@ -283,6 +250,11 @@
     </div>
 </body>
 <script src="./js/main.js"></script>
-<script src="./js/slider.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/slider-main.js"></script>
+<script src="./js/main.js"></script>
 
 </html>
