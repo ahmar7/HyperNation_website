@@ -172,14 +172,18 @@ a:hover {
     /* background-position: 100%; */
     /* background-size: contain; */
     /* background-repeat: no-repeat;  */
-    margin-top: -8px;
-
-
-    background: url("../assets/home/home-backgrd.png") no-repeat center center fixed;
+    /* background: url("../assets/home/home-backgrd.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
+
+
+
+    margin-top: -8px;
+
+    background: rgb(24, 231, 218);
+    background: linear-gradient(110deg, rgba(24, 231, 218, 1) 0%, rgba(25, 232, 217, 1) 0%, rgba(36, 77, 102, 1) 69%, rgba(37, 72, 100, 1) 100%);
 
 
 }
